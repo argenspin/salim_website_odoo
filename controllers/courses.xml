@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template name="Offered Courses" t-name="offered_courses">
+        <t t-call="website.layout">
+            <div id="wrap" class="">
+                <div class="oe_structure">
+                    <section
+                        class="s_title parallax s_parallax_is_fixed bg-black-50 pt24 pb24 o_colored_level"
+                        data-vcss="001" data-snippet="s_title" data-scroll-background-ratio="1"
+                        data-name="Title" style="background-image: none;">
+                        <span class="s_parallax_bg oe_img_bg"
+                            style="background-image: url('/web/image/website.s_banner_default_image'); background-position: 50% 0;" />
+                        <div class="o_we_bg_filter bg-black-50" />
+                        <div class="container">
+                            <h1>Offered Courses -&amp;nbsp; <a href="/contactus"
+                                    data-bs-original-title="" title="">
+                                    <font class="text-gradient"
+                                        style="background-image: linear-gradient(135deg, rgb(222, 222, 222) 0%, rgb(69, 69, 69) 100%);">
+                                        <em>
+                                            <strong>Start you Expert journey today</strong>
+                                        </em>
+                                    </font>
+                                </a><br /></h1>
+                        </div>
+                    </section>
+                </div>
+                <div class="oe_structure">
+                    <section class="s_features_grid pt48 pb24 o_colored_level"
+                        data-snippet="s_features_grid" data-name="Features Grid"
+                        style="background-image: none;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="s_col_no_bgcolor pb24 col-lg-4">
+                                    <div class="row">
+                                        <div class="col-lg-12 pb24 o_colored_level" data-name="Box">
+                                            <h4 class="o_default_snippet_text">
+                                                <strong>
+                                                    <u>Microsoft Excel​</u>
+                                                </strong>
+                                                <br />
+                                            </h4>
+                                        </div>
+                                        <div class="col-lg-12 pt16 o_colored_level pb8"
+                                            data-name="Box">
+                                            <i
+                                                class="fa fa-dashboard s_features_grid_icon fa-2x rounded-circle"
+                                                data-bs-original-title="" title=""
+                                                aria-describedby="tooltip546051"
+                                                style="background-color: rgb(57, 123, 33);" />
+                                            <div class="s_features_grid_content">
+                                                <h5 class="o_default_snippet_text pt-3"
+                                                    style="text-align: left;">Data analysis and
+                                                    dashboards</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 pt16 pb16 o_colored_level"
+                                            data-name="Box">
+                                            <i
+                                                class="fa fa-table fa-2x rounded-circle s_features_grid_icon"
+                                                data-bs-original-title="" title=""
+                                                aria-describedby="tooltip765693"
+                                                style="background-color: rgb(57, 123, 33);" />
+                                            <div class="s_features_grid_content">
+                                                <h5 class="o_default_snippet_text pt-3">
+                                                    Pivot tables and Power Pivot</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 pt16 pb16 o_colored_level"
+                                            data-name="Box">
+                                            <i
+                                                class="fa fa-bar-chart-o fa-2x rounded-circle s_features_grid_icon"
+                                                data-bs-original-title="" title=""
+                                                aria-describedby="tooltip408064"
+                                                style="background-color: rgb(57, 123, 33);" />
+                                            <div class="s_features_grid_content">
+                                                <h5 class="o_default_snippet_text pt-3"> Advanced
+                                                    Charts and Graphs<br /></h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 pt16 pb16 o_colored_level"
+                                            data-name="Box">
+                                            <i
+                                                class="fa fa-file-excel-o fa-2x rounded-circle s_features_grid_icon"
+                                                data-bs-original-title="" title=""
+                                                aria-describedby="tooltip971193"
+                                                style="background-color: rgb(57, 123, 33);" />
+                                            <div class="s_features_grid_content">
+                                                <h5 class="o_default_snippet_text pt-3">Generic
+                                                    Excel Courses (Basic, Intermediate, Advanced) <br /></h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 pb24 o_colored_level pt16"
+                                            data-name="Box">
+                                            <h4 class="o_default_snippet_text">
+                                                <strong>
+                                                    <u>Microsoft PowerBI</u>
+                                                </strong>
+                                            </h4>
+                                        </div>
+                                        <div class="col-lg-12 pb16 o_colored_level pt0"
+                                            data-name="Box">
+                                            <i
+                                                class="fa fa-area-chart fa-2x rounded-circle s_features_grid_icon"
+                                                data-bs-original-title="" title=""
+                                                aria-describedby="tooltip289284"
+                                                style="background-color: rgb(255, 214, 99);" />
+                                            <div class="s_features_grid_content">
+                                                <h5 class="o_default_snippet_text pt-3"> Microsoft
+                                                    Power BI Desktop&amp;nbsp;<br /></h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 pb24 o_colored_level pt24"
+                                            data-name="Box">
+                                            <h4 class="o_default_snippet_text">
+                                                <u>
+                                                    <strong>Odoo ERP</strong>
+                                                </u>
+                                                <br />
+                                            </h4>
+                                        </div>
+                                        <div class="col-lg-12 o_colored_level pb0 pt0"
+                                            data-name="Box">
+                                            <i
+                                                class="fa fa-delicious fa-2x rounded s_features_grid_icon text-o-color-3"
+                                                data-bs-original-title="" title=""
+                                                aria-describedby="tooltip875633"
+                                                style="background-color: rgb(206, 0, 0);" />
+                                            <div class="s_features_grid_content">
+                                                <h5 class="o_default_snippet_text pt-3"> Odoo ERP
+                                                    end-user Training <br /></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="s_col_no_bgcolor col-lg-4 pb0">
+                                    <div class="row">
+                                        <div class="col-lg-12 pb24 o_colored_level" data-name="Box">
+                                            <h4 class="o_default_snippet_text">
+                                                <strong>
+                                                    <u>Microsoft PowerPoint</u>
+                                                </strong>
+                                            </h4>
+                                        </div>
+                                        <div class="col-lg-12 pt16 pb16 o_colored_level"
+                                            data-name="Box">
+                                            <i
+                                                class="fa fa-window-maximize fa-2x rounded s_features_grid_icon bg-o-color-1"
+                                                data-bs-original-title="" title=""
+                                                aria-describedby="tooltip814486" />
+                                            <div class="s_features_grid_content">
+                                                <h5 class="o_default_snippet_text pt-3">
+                                                    PowerPoint training for Office Professionals</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 pt16 pb16 o_colored_level"
+                                            data-name="Box">
+                                            <i
+                                                class="fa fa-desktop fa-2x rounded s_features_grid_icon bg-o-color-1"
+                                                data-bs-original-title="" title=""
+                                                aria-describedby="tooltip370824" />
+                                            <div class="s_features_grid_content">
+                                                <h5 class="o_default_snippet_text pt-3"> Generic
+                                                    PowerPoint Courses (Basic, Intermediate,
+                                                    Advanced) <br /></h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 pb24 o_colored_level pt16"
+                                            data-name="Box">
+                                            <h4 class="o_default_snippet_text">
+                                                <strong>
+                                                    <u>Other Microsoft Office&amp;nbsp;Applications​</u>
+                                                </strong>
+                                            </h4>
+                                        </div>
+                                        <div class="col-lg-12 pt16 pb16 o_colored_level"
+                                            data-name="Box">
+                                            <i
+                                                class="fa fa-envelope-open rounded s_features_grid_icon fa-2x"
+                                                data-bs-original-title="" title=""
+                                                aria-describedby="tooltip892600"
+                                                style="background-color: rgb(247, 173, 107);" />
+                                            <div class="s_features_grid_content">
+                                                <h5 class="o_default_snippet_text pt-3">Microsoft
+                                                    Outlook for Professionals<br /></h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 pt16 pb16 o_colored_level"
+                                            data-name="Box">
+                                            <i
+                                                class="fa fa-vcard-o s_features_grid_icon fa-2x rounded"
+                                                data-bs-original-title="" title=""
+                                                aria-describedby="tooltip238625"
+                                                style="background-color: rgb(74, 123, 140);" />
+                                            <div class="s_features_grid_content">
+                                                <h5 class="o_default_snippet_text pt-3"> Microsoft
+                                                    Publisher for Professionals<br /></h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 pt16 pb16 o_colored_level"
+                                            data-name="Box">
+                                            <i
+                                                class="fa fa-pie-chart rounded s_features_grid_icon fa-2x"
+                                                data-bs-original-title="" title=""
+                                                aria-describedby="tooltip576310"
+                                                style="background-color: rgb(99, 74, 165);" />
+                                            <div class="s_features_grid_content">
+                                                <h5 class="o_default_snippet_text pt-3">Visio for
+                                                    Office Professionals<br /></h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 pt16 pb16 o_colored_level"
+                                            data-name="Box">
+                                            <i
+                                                class="fa fa-pie-chart fa-2x rounded s_features_grid_icon"
+                                                data-bs-original-title="" title=""
+                                                aria-describedby="tooltip447234"
+                                                style="background-color: rgb(99, 74, 165);" />
+                                            <div class="s_features_grid_content">
+                                                <h5 class="o_default_snippet_text pt-3">Visio for
+                                                    Technical Professionals <br /></h5>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="s_col_no_bgcolor pb24 col-lg-4">
+                                    <div class="row">
+                                        <div class="col-lg-12 pb24 o_colored_level" data-name="Box">
+                                            <h4 class="o_default_snippet_text">
+                                                <u>
+                                                    <strong>Adobe Applications</strong>
+                                                </u>
+                                            </h4>
+                                        </div>
+                                        <div class="col-lg-12 pt16 o_colored_level pb8"
+                                            data-name="Box">
+                                            <i
+                                                class="fa fa-photo fa-2x rounded s_features_grid_icon"
+                                                data-bs-original-title="" title=""
+                                                aria-describedby="tooltip398939"
+                                                style="background-color: rgb(57, 132, 198);" />
+                                            <div class="s_features_grid_content">
+                                                <h5 class="o_default_snippet_text pt-3"> Adobe
+                                                    Photoshop for Office Professionals <br /></h5>
+                                                <h4 class="o_default_snippet_text">
+                                                    <br />
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 o_colored_level pb8 pt0"
+                                            data-name="Box">
+                                            <i
+                                                class="fa fa-location-arrow rounded s_features_grid_icon fa-2x"
+                                                data-bs-original-title="" title=""
+                                                aria-describedby="tooltip875633"
+                                                style="background-color: rgb(231, 148, 57);" />
+                                            <div class="s_features_grid_content">
+                                                <h5 class="o_default_snippet_text pt-3">Infographics
+                                                    Using Adobe Illustrator</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 o_colored_level pb8 pt24"
+                                            data-name="Box">
+                                            <i
+                                                class="fa fa-2x fa-magic rounded s_features_grid_icon"
+                                                data-bs-original-title="" title=""
+                                                aria-describedby="tooltip875633"
+                                                style="background-color: rgb(231, 148, 57);" />
+                                            <div class="s_features_grid_content">
+                                                <h5 class="o_default_snippet_text pt-3"> Vector Art
+                                                    Using Adobe Illustrator <br /></h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 o_colored_level pb8 pt24"
+                                            data-name="Box">
+                                            <i
+                                                class="fa fa-file-text-o fa-2x rounded s_features_grid_icon text-o-color-3"
+                                                data-bs-original-title="" title=""
+                                                aria-describedby="tooltip875633"
+                                                style="background-color: rgb(156, 0, 0);" />
+                                            <div class="s_features_grid_content">
+                                                <h5 class="o_default_snippet_text pt-3">Adobe
+                                                    InDesign for Office Professionals<br /></h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 o_colored_level pb8 pt24"
+                                            data-name="Box">
+                                            <i class="fa fa-edit rounded s_features_grid_icon fa-2x"
+                                                data-bs-original-title="" title=""
+                                                aria-describedby="tooltip875633"
+                                                style="background-color: rgb(231, 99, 99);" />
+                                            <div class="s_features_grid_content">
+                                                <h5 class="o_default_snippet_text pt-3"> Document
+                                                    Designing Using Adobe Acrobat
+                                                    Professional&amp;nbsp;<br /></h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 pb24 o_colored_level pt24"
+                                            data-name="Box">
+                                            <h4 class="o_default_snippet_text">
+                                                <u>
+                                                    <strong>AutoCAD</strong>
+                                                </u>
+                                                <br />
+                                            </h4>
+                                        </div>
+                                        <div class="col-lg-12 o_colored_level pb8 pt16"
+                                            data-name="Box">
+                                            <i
+                                                class="fa fa-home fa-2x rounded s_features_grid_icon text-o-color-3"
+                                                data-bs-original-title="" title=""
+                                                aria-describedby="tooltip875633"
+                                                style="background-color: rgb(206, 0, 0);" />
+                                            <div class="s_features_grid_content">
+                                                <h5 class="o_default_snippet_text pt-3">&amp;nbsp;2D
+                                                    Engineering Drafting using Auto CAD <br /></h5>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </t>
+    </template>
+</odoo>
